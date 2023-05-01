@@ -54,6 +54,14 @@ app.get("/posts/:topic", (req, res) =>{
   });
 });
 
+// function strTruncate (str) {
+//   if (str.length > 100) {
+//     return (str.substring(0, 100) + "...");
+//   } else {
+//     return str;
+//   }
+// }
+
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
