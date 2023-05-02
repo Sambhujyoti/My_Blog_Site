@@ -54,6 +54,10 @@ app.get("/posts/:topic", (req, res) =>{
   });
 });
 
+// app.post("/", (req, res) => {
+//   res.redirect("/posts/:topic");
+// });
+
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
